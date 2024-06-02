@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Santral,sans-serif
+}
+
+header{
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: navy;
+    padding: 30px;
+    padding-top: 50px;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+
+li a:hover {
+    background-color: gold;
+    transition: 3s;
+}
+
+.img-logo {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.baslik {
+    text-align: center;
+    color: navy;
+}
+
